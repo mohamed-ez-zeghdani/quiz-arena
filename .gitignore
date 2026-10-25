@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Local server backups
+server/*.bak
+server/index.js.backup*
+
+# Runtime data: keep local session out of Git
+server/data.json
+server/data.tmp
+
+# Old project archives
+*.tar.gz
